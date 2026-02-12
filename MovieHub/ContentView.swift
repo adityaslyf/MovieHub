@@ -22,11 +22,12 @@ struct ContentView: View {
             Tab(Constants.downloadString, systemImage: Constants.downloadIconString){
                 Text(Constants.downloadString)
             }
-            
-            
+        }
         }
     }
+    
 }
+
 
 #Preview {
     ContentView()
