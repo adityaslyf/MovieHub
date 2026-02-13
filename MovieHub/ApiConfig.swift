@@ -8,8 +8,8 @@
 import Foundation
 
 struct APIConfig: Decodable {
-    let tmbdBaseURL: String
-    let tmbdAPIKey: String
+    let tmdbBaseURL: String
+    let tmdbAPIKey: String
     
     static let shared: APIConfig? = {
         do {
