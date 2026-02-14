@@ -36,13 +36,13 @@ struct Constants {
     
     static let posterURLStart = "https://image.tmdb.org/t/p/w500"
     
-//    static func addPosterPath(to titles: inout[Title]) {
-//        for index in titles.indices {
-//            if let path = titles[index].posterPath {
-//                titles[index].posterPath = Constants.posterURLStart + path
-//            }
-//        }
-//    }
+    static func addPosterPath(to titles: inout[Title]) {
+        for index in titles.indices {
+            if let path = titles[index].posterPath {
+                titles[index].posterPath = Constants.posterURLStart + path
+            }
+        }
+    }
 }
 
 //enum YoutubeURLStrings: String {
